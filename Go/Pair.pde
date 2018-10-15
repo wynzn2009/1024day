@@ -1,9 +1,11 @@
 class Pair{
   public int x;
   public int y;
-  public Pair(int x , int y){
+  public color c;
+  public Pair(int x , int y,color c){
     this.x = x ;
     this.y = y;
+    this.c = c;
   }
   
   @Override
