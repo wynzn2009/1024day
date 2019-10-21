@@ -26,7 +26,7 @@ int c1 = 0xffD364AB;
 boolean black = true;
 boolean reset = false;
 boolean back = false;
-int baseD = 150;
+int baseD = 140;
 public void setup() {
   
 }
@@ -158,6 +158,7 @@ public void update() {
     reset = back = false;
   }
 }
+
 class Pair{
   public int x;
   public int y;

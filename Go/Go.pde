@@ -8,7 +8,7 @@ color c1 = #D364AB;
 boolean black = true;
 boolean reset = false;
 boolean back = false;
-int baseD = 150;
+int baseD = 140;
 void setup() {
   size(1000, 600);
 }
