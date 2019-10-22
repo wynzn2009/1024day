@@ -1,4 +1,4 @@
-import java.util.*; //<>//
+import java.util.*;
 class Timer {
   public long start;
   public long end;

@@ -60,7 +60,7 @@ public class Tabs {
     if (mx<Tab.SPAN_X||my<Tab.SPAN_Y||mx>(COLUMN-1)*Tab.WIDTH+(COLUMN-1)*5+Tab.SPAN_X+Tab.WIDTH||my>(ROW-1)*Tab.HEIGHT+(ROW-1)*5+Tab.SPAN_Y+Tab.HEIGHT) {
       return -1;
     }
-    int indx = (mx-Tab.SPAN_X)/(Tab.WIDTH+5); //<>//
+    int indx = (mx-Tab.SPAN_X)/(Tab.WIDTH+5);
     int indy = (my-Tab.SPAN_Y)/(Tab.HEIGHT+5);
 
     if(tabs[indx][indy].stat==Stats.READY){
